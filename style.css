@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: red;
+}
+.main-container{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid rgb(12, 174, 174);
+}
+.leftContainer{
+    display: flex;
+    flex-flow: column;
+    
+    height: 25rem;
+    width: 25rem;
+    margin: 25px;
+    margin-top: 30px;
+    color: rgb(12, 174, 174);
+}
+.leftContainer h2{
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.leftContainer label{
+    margin-bottom: 10px;
+    margin-top: 35px;
+    font-weight: 800;
+}
+
+.leftContainer .inpt{
+    height: 30px;
+    width: 15rem;
+    border-color: gray;
+    font-size: 20px;
+    color: grey;
+}
+.leftContainer #btn{
+   margin: 60px;
+   margin-top: 100px;
+   height: 50px;
+    width: 7rem;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(12, 174, 174);
+  cursor: pointer;
+}
+#btn:active{
+    background-color: #fff;
+    color: black;
+}
+.rightContainer{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(12, 174, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
